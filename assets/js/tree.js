@@ -1,9 +1,8 @@
 class Tree {
-    length = 0;
-    branches = [];
-
     constructor(branch) {
+        this.branches = [];
         this.branches[0] = branch;
+        this.length = 0;
     }
 
     async grow() {

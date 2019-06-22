@@ -1,9 +1,5 @@
 class Branch {
 
-    begin;
-    end;
-    weight;
-
     constructor(begin, end, weight) {
         this.begin = begin;
         this.end = end;
